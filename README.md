@@ -9,14 +9,51 @@ In this program, you enter the following commands in the terminal:
 
 Allows the staff to deposit an amount of money in a customer's account.
 ```
-Enter First Name: <pre><b>Kevin</b></pre>
-Enter Last Name: **Marcelino**
-Enter BSB: **02321**
-Enter Account Number: **12382071**
-Enter Balance: **$1023**
+Enter BSB: 1234
+Enter account number: 1234
+Enter amount to deposit: $100
 
 ```
-2. Withdraw -Allows the staff to withdraw an amount of money from a customer's account.
+If the account or BSB number doesn't exist in the databse then the system will output:
+```
+ERROR: BSB does not exist
+ERROR: Account Number does not exist
+
+```
+If the account and BSB number exists, then the system will output:
+```
+Deposit Successful!
+
+```
+### 2. Withdraw 
+Allows the staff to withdraw an amount of money from a customer's account.
+```
+Enter BSB: 1234
+Enter account number: 1234
+Enter amount to withdraw: $10
+
+```
+If the account or BSB number doesn't exist in the databse then the system will output:
+
+```
+ERROR: BSB does not exist
+ERROR: Account Number does not exist
+```
+
+If the account and BSB number exists and the amount of money withdrawn is smaller or equal to the one in the account, then the system will output:
+
+```
+Withdrawl Successful!
+
+```
+
+If the amount of money withdrawn is bigger than the amount in the customer's bank account then the system will output:
+
+```
+ERROR: Withdrawn Amount is greater than current balance
+
+```
+
 3. Transfer- Allows the staff to transfer a customers money from his/her account to another customer's account.
 4. Add Account- Allows the staff to add a new bank account to the database.
 The banking system asks the staff for the user's bank details so they can input the new user's bank details into the system:
