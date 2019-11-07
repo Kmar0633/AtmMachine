@@ -50,7 +50,7 @@ public int placeholder=0;
         }
       else if(input1.equals("quit")){
         System.out.println("Goodbye!");
-        System.exit();
+        System.exit(0);
       }
       else if(input1.equals("show accounts")){
         for (Integer key : p1.database.keySet()) {
