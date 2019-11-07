@@ -154,5 +154,7 @@ Quit  Quits the program
 
 ### 8. Quit
 Allows the user to quit the program.
-
-
+```
+>quit
+Goodbye!
+```
