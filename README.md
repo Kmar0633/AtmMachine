@@ -5,7 +5,7 @@ This program program simulates the operations of an online Banking system used i
 
 In this program, you enter the following commands in the terminal:
 
-1. Deposit
+### 1. Deposit
 
 Allows the staff to deposit an amount of money in a customer's account.
 ```
