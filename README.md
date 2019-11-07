@@ -158,3 +158,18 @@ Allows the user to quit the program.
 >quit
 Goodbye!
 ```
+## Technologies Used
+- Java
+- Intellij IDE
+
+## Launch
+The project can be run on an IDE using java. You can first open a command prompt window and go to the directory where you saved the java program. Type 'javac Atm.java' and press enter to compile your code. Next, type ' java Atm ' to run your program.The program is now run.
+
+## Setup
+To set up the program. Type this into the command terminal:
+
+```
+$ javac Atm.java
+$ java Atm
+```
+
