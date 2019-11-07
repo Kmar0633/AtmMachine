@@ -9,7 +9,7 @@ In this program, you enter the following commands in the terminal:
 
 Allows the staff to deposit an amount of money in a customer's account.
 ```
-Enter First Name: **Kevin**
+Enter First Name: <b>Kevin</b>
 Enter Last Name: **Marcelino**
 Enter BSB: **02321**
 Enter Account Number: **12382071**
