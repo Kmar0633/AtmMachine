@@ -44,11 +44,14 @@ public int placeholder=0;
         System.out.println("Delete account      Delete an account in the database");
         System.out.println("Withdraw     Withdraw an amount from a customer");
         System.out.println("Deposit     Deposit an amount to a customer");
-        System.out.println("Transfer    Transfer a customers money to another customer");
-        System.out.println("Show Accounts Show all the customers' accounts");
+        System.out.println("Show Accounts   Show all the customers' accounts");
+        System.out.println("Quit  Exits the program");
         System.out.println();
         }
-
+      else if(input1.equals("quit")){
+        System.out.println("Goodbye!");
+        System.exit();
+      }
       else if(input1.equals("show accounts")){
         for (Integer key : p1.database.keySet()) {
 
