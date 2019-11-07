@@ -62,7 +62,7 @@ public int placeholder=0;
         System.out.println();
         System.out.print("Enter sender's BSB: ");
           String bsb=scan.nextLine();
-          BsbInt=Integer.parseInt(bsb);
+          int BsbInt=Integer.parseInt(bsb);
         System.out.print("Enter sender's account number: ");
         String AccNum =scan.nextLine();
         int AccNumInt =Integer.parseInt(AccNum);
